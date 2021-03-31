@@ -25,6 +25,7 @@ jobs:
           npm install
           npm run build
           cd docs/.vuepress/dist
+          echo 'pupperc.com' > CNAME
           git init
           git config user.name "Pupper0601"
           git config user.email "gdmuye@qq.com"
