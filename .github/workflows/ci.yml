@@ -29,8 +29,8 @@ jobs:
           git config user.name "Pupper0601"
           git config user.email "gdmuye@qq.com"
           git add -A
-          git commit -q -m "Auto Deploy from Github Actions: $(date +"%Y-%m-%d %H:%M")"
-          git push -f https://Pupper0601:${ORIGIN}@github.com/Pupper0601/vuepress-theme-vdoing.git master:gh-pages
+          git commit -m "Auto Deploy from Github Actions: $(date +"%Y-%m-%d %H:%M")"
+          git push -f https://Pupper0601:${ORIGIN}@github.com/Pupper0601/vuepress-theme-vdoing.git main:gh-pages
 
 
 
