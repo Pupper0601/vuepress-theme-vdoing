@@ -34,8 +34,8 @@ jobs:
           git commit -m "github自动部署: $(date +"%Y-%m-%d %H:%M")"
           git push -f https://Pupper0601:${ORIGIN}@github.com/Pupper0601/vuepress-theme-vdoing.git master:gh-pages
 
-          echo 'pupper.cn' > CNAME
-          git push -f https://j8014lx:${CODING}@e.coding.net/j8014lx/pupper/pupper.git msater
+          # echo 'pupper.cn' > CNAME
+          # git push -f https://j8014lx:${CODING}@e.coding.net/j8014lx/pupper/pupper.git msater
 
 
 
