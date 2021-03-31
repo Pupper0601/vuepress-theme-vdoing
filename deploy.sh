@@ -20,6 +20,8 @@ else
   git config --global user.name "Pupper0601"
   git config --global user.email "gdmuye@qq.com"
 fi
+git config --global user.name "Pupper0601"
+git config --global user.email "gdmuye@qq.com"
 git init
 git add -A
 git commit -m "${msg}"
@@ -33,7 +35,7 @@ git push -f $githubUrl master:gh-pages # 推送到github
 # echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
 # if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
-#   codingUrl=git@e.coding.net:j8014lx/vuepress-theme-vdoing/vuepress-theme-vdoing.git
+#   codingUrl=git@e.coding.net:j8014lx/vuepress/vuepress-theme-vdoing.git
 # else
 #   codingUrl=https://j8014lx:${CODING_TOKEN}@e.coding.net/vuepress-theme-vdoing/vuepress-theme-vdoing.git
 # fi
