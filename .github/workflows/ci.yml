@@ -35,7 +35,7 @@ jobs:
           git push -f https://Pupper0601:${ORIGIN}@github.com/Pupper0601/vuepress-theme-vdoing.git master:gh-pages
 
           echo 'pupper.cn' > CNAME
-          git push -f https://j8014lx:${CODING}@e.coding.net/j8014lx/pupper/pupper.git
+          git push -f https://j8014lx:${CODING}@e.coding.net/j8014lx/pupper/pupper.git msater
 
 
 
