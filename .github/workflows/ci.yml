@@ -18,9 +18,10 @@ jobs:
         uses: actions/setup-node@v2.1.4
         with:
           node-version: 15.x
-      - name: build and deploy
+      - name: github自动部署
         env:
           ORIGIN: ${{ secrets.ACCESS_TOKEN }}
+          CODING: ${{ secrets.CODING_TOKEN }}
         run: |
           npm install
           npm run build
@@ -30,8 +31,11 @@ jobs:
           git config user.name "Pupper0601"
           git config user.email "gdmuye@qq.com"
           git add -A
-          git commit -m "Auto Deploy from Github Actions: $(date +"%Y-%m-%d %H:%M")"
+          git commit -m "github自动部署: $(date +"%Y-%m-%d %H:%M")"
           git push -f https://Pupper0601:${ORIGIN}@github.com/Pupper0601/vuepress-theme-vdoing.git master:gh-pages
+
+          echo 'pupper.cn' > CNAME
+          git push -f https://j8014lx:${CODING}@e.coding.net/j8014lx/pupper/pupper.git
 
 
 
