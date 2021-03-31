@@ -26,7 +26,7 @@ git config --global user.email "gdmuye@qq.com"
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github
+git push -f $githubUrl main:gh-pages # 推送到github
 
 
 
