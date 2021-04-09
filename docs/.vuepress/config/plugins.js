@@ -87,7 +87,7 @@ module.exports = [
         clientSecret: '81e2e39d68caabead2923a99db45db076ad00f4e',
         repo: 'blog-gitalk-comment', // GitHub 仓库
         owner: 'Pupper0601', // GitHub仓库所有者
-        admin: ['Pupper'], // 对仓库有写权限的人
+        admin: ['Pupper0601'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
