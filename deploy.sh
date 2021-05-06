@@ -11,7 +11,7 @@ cd docs/.vuepress/dist
 
 
 # deploy to github
-echo 'pupperc.com' > CNAME
+echo 'pupper.cn' > CNAME
 if [ -z "$ACCESS_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:Pupper0601/vuepress-theme-vdoing.git
