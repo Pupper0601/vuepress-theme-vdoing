@@ -52,7 +52,7 @@ module.exports = [
           { text: '功能测试', link: '/pages/2725cf/' },
           { text: '性能测试', link: '/pages/2f43f2/' },
           { text: '安全测试', link: '/pages/80b731/' },
-          { text: '接口自动化测试', link: '/pages/c284bc/' },
+          { text: '自动化测试', link: '/pages/c284bc/' },
           { text: '测试开发', link: '/pages/a84b92/' },
 
         ],
