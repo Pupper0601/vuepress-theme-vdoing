@@ -67,6 +67,15 @@ module.exports = [
   },
 
 
+  {
+    text: 'web前端',
+    link: '/tools/',
+    items: [
+      { text: 'Vue样式', link: ' /pages/bd7d08/' },   
+        ],
+  },
+
+
 
   {
     text: '工具',
