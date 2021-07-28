@@ -66,7 +66,14 @@ module.exports = [
     ],
   },
 
-  { text: '测试技术', link: '/testSkill/' },
+  {
+    text: '测试技术',
+    items: [
+      { text: '测试技术', link: '/pages/a0775e/' },   
+        ],
+  
+  
+  },
 
   {
     text: 'web前端',
