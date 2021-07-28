@@ -66,6 +66,7 @@ module.exports = [
     ],
   },
 
+  { text: '测试技术', link: '/testSkill/' },
 
   {
     text: 'web前端',
